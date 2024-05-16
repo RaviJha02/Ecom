@@ -1,0 +1,116 @@
+.login{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  background-color: cadetblue;
+  padding: 30px 0px;
+ 
+
+}
+.logincon{
+  width: 100%;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login input{
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid orangered;
+}
+.login button{
+  padding: 5px 20px;
+  font-size: 15px;
+}
+.login a{
+  text-decoration: none;
+  color: blue;
+
+}
+.login a:hover{
+  text-decoration: underline;
+  color: rgb(224, 15, 81);
+  
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 10vh;
+  background-color: chocolate;
+ 
+  font-size: 16px;
+  align-items: center;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+nav a:hover{
+  color: darkorchid;
+
+}
+
+.con{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: burlywood;
+  gap: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.prodcon{
+  width: 30%;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  border-radius: 18px;
+  text-align: center;
+  padding: 20px 10px;
+}
+.img{
+  width: 100px;
+  height: 100px;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+.prodcon button{
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: crimson;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.prodcon button:hover{
+  color: brown;
+  font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (max-width:768px) {
+
+  .prodcon{
+      width: 40%;
+  }
+  
+}
+
